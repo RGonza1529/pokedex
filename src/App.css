@@ -1,0 +1,14 @@
+/* index.css or App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional styles */
+/* ... */
+
+@layer base {
+    body{
+        @apply bg-zinc-950;
+    }
+}
+
